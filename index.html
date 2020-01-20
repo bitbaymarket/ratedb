@@ -31,6 +31,12 @@
                 borderColor: "#2da5e0",
                 data: [],
                 fill: false,
+            },{
+                label: 'BAY Floor',
+                backgroundColor: "#ed8580",
+                borderColor: "#ed8580",
+                data: [],
+                fill: false,
             }]
         },
         options: {
@@ -78,6 +84,11 @@
                     let data = resp[i];
                     config.data.labels.push(data["BAY"]["last_updated"]);
                     config.data.datasets[0].data.push(data["BAY"]["price"]);
+                    if ("floor" in data["BAY"]) {
+                        config.data.datasets[1].data.push(data["BAY"]["floor"]);
+                    } else {
+                        config.data.datasets[1].data.push(0.0);
+                    }
                 }
                 window.myLine.update();
             },

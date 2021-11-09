@@ -8,22 +8,6 @@
 			"pegvote": "nochange"
 		},
 		"BTC": {
-			"last_updated": "2021-10-12T02:48:02.000Z",
-			"price": 56816.039835398464,
-			"floor": 64671.95743199325,
-			"floorjump": false,
-			"pegvote": ""
-		}
-	},
-	{
-		"BAY": {
-			"last_updated": "2020-09-17T05:43:16.000Z",
-			"price": 0.64,
-			"floor": 0.6467195743199325,
-			"floorjump": false,
-			"pegvote": "nochange"
-		},
-		"BTC": {
 			"last_updated": "2021-10-12T03:08:02.000Z",
 			"price": 56541.11500411625,
 			"floor": 64671.95743199325,
@@ -31995,6 +31979,22 @@
 			"last_updated": "2021-11-09T03:19:02.000Z",
 			"price": 67624.37820156911,
 			"floor": 67668.689290916,
+			"floorjump": false,
+			"pegvote": ""
+		}
+	},
+	{
+		"BAY": {
+			"last_updated": "2021-11-09T03:39:04.000Z",
+			"price": 0.64,
+			"floor": 0.6772773836689127,
+			"floorjump": false,
+			"pegvote": "deflate"
+		},
+		"BTC": {
+			"last_updated": "2021-11-09T03:39:02.000Z",
+			"price": 67727.73836689127,
+			"floor": 67727.73836689127,
 			"floorjump": false,
 			"pegvote": ""
 		}

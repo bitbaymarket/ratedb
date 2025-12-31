@@ -1,22 +1,6 @@
 [
 	{
 		"BAY": {
-			"last_updated": "2025-12-03T13:05:00.000Z",
-			"price": 0.06909417438317815,
-			"floor": 0.12,
-			"floorjump": false,
-			"pegvote": "deflate"
-		},
-		"BTC": {
-			"last_updated": "2025-12-03T13:05:00.000Z",
-			"price": 93074.52138630427,
-			"floor": 125821.7250539723,
-			"floorjump": false,
-			"pegvote": ""
-		}
-	},
-	{
-		"BAY": {
 			"last_updated": "2025-12-03T13:26:00.000Z",
 			"price": 0.06909901877879829,
 			"floor": 0.12,
@@ -31994,6 +31978,22 @@
 		"BTC": {
 			"last_updated": "2025-12-31T11:44:00.000Z",
 			"price": 88876.45671774994,
+			"floor": 125821.7250539723,
+			"floorjump": false,
+			"pegvote": ""
+		}
+	},
+	{
+		"BAY": {
+			"last_updated": "2025-12-31T12:05:00.000Z",
+			"price": 0.06821341606242536,
+			"floor": 0.12,
+			"floorjump": false,
+			"pegvote": "inflate"
+		},
+		"BTC": {
+			"last_updated": "2025-12-31T12:04:00.000Z",
+			"price": 88847.49362983415,
 			"floor": 125821.7250539723,
 			"floorjump": false,
 			"pegvote": ""
